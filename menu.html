@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Pizzería Di Casa</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menú</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="ubicacion.html">Ubicacion</a>
+        </nav>        
+    </header>
+
+    <section id="menu" class="content">
+        <h2>Menú</h2>
+        <div class="menu-item">
+            <p>Pizza Vegetariana: Queso mozzarella, tomate fresco y albahaca.</p>
+            <img src="https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_1280.jpg" width="400" alt="Pizza Vegetariana" />
+            <button onclick="orderPizza('Pizza Margarita')">Pedir Pizza Margarita</button>
+        </div>
+
+        <div class="menu-item">
+            <p>Pizza Pepperoni: Queso mozzarella y pepperoni crujiente.</p>
+            <img src="https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_1280.jpg" width="400" alt="Pizza Pepperoni" />
+            <button onclick="orderPizza('Pizza Pepperoni')">Pedir Pizza Pepperoni</button>
+        </div>
+
+        <div class="menu-item">
+            <p>Pizza Cuatro Quesos: Mozzarella, parmesano, gorgonzola y ricotta.</p>
+            <img src="https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_1280.jpg" width="400" alt="Pizza Cuatro Quesos" />
+            <button onclick="orderPizza('Pizza Cuatro Quesos')">Pedir Pizza Cuatro Quesos</button>
+        </div>
+
+        <div class="menu-item">
+            <p>Pizza Extra Queso: Mozzarella, parmesano, tres quesos.</p>
+            <img src="https://cdn.pixabay.com/photo/2019/06/18/11/59/pizza-4282169_960_720.jpg" width="300" alt="Pizza Extra Quesos" />
+            <button onclick="orderPizza('Pizza Extra Quesos')">Pedir Pizza Extra Quesos</button>
+        </div>
+
+        <div class="menu-item">
+            <p>Lasagna: Carne, Mozzarella, vegetales.</p>
+            <img src="https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332_1280.jpg" width="300" alt="Lasagna de vegetales" />
+            <button onclick="orderlasagna('Lasagna de Carne con vegetales y Queso')">Pedir lasagna</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pizza Caprichosa. Todos los derechos reservados.</p>
+        <ul style="list-style: none; padding: 0;">
+            <li style="display: inline; margin: 0 15px;">
+                <a href="https://www.facebook.com/" style="color: white; text-decoration: none;">Facebook</a>
+            </li>
+            <li style="display: inline; margin: 0 15px;">
+                <a href="https://www.twitter.com/" style="color: white; text-decoration: none;">Twitter</a>
+            </li>
+            <li style="display: inline; margin: 0 15px;">
+                <a href="https://www.instagram.com/" style="color: white; text-decoration: none;">Instagram</a>
+            </li>
+        </ul>
+        <p>Contacto: <a href="mailto:info@pi.com" style="color: white;">info@miempresa.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
